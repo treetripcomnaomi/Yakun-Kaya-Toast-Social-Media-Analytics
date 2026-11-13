@@ -3,7 +3,7 @@
 NMC5342 Social Media Analytics, Group 2, National University of Singapore (2026)
 JIANG Jingyi, KONG Shuting, LU Chenyue, LU Lingzhi, YAO Xinyan
 
-> **📓 [Open the analysis notebook](NMC5342_Group%202%20Yakun_notebook.ipynb)** · **📁 [Browse all files](https://github.com/YOUR-USERNAME/YaKun_NMC5342_analysis)**
+> **📓 [Open the analysis notebook](https://github.com/treetripcomnaomi/Yakun-Kaya-Toast-Social-Media-Analytics/tree/main/notebook)** · **📁 [Browse all files](https://github.com/treetripcomnaomi/Yakun-Kaya-Toast-Social-Media-Analytics)**
 
 This repository contains the code and analysis behind our final report. The report designs a data-informed social media strategy for Ya Kun Kaya Toast, a Singapore heritage brand that wants to reach younger audiences.
 
