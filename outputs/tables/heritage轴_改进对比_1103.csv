@@ -1,0 +1,15 @@
+词向量,种子词,合成方式,dev AUC（AI 标签）,test AUC（人工标签 112 条）
+GoogleNews,原种子词,mean,0.67,0.632
+GoogleNews,原种子词,top3,0.676,0.624
+GoogleNews,原种子词,max,0.658,0.612
+GoogleNews,加领域种子词,mean,0.671,0.643
+GoogleNews,加领域种子词,top3,0.688,0.614
+GoogleNews,加领域种子词,max,0.67,0.631
+GoogleNews,数据学习的方向（AI 标签训练）,mean-emb,0.708,0.727
+GloVe-Twitter,原种子词,mean,0.594,0.51
+GloVe-Twitter,原种子词,top3,0.649,0.587
+GloVe-Twitter,原种子词,max,0.639,0.568
+GloVe-Twitter,加领域种子词,mean,0.588,0.625
+GloVe-Twitter,加领域种子词,top3,0.661,0.661
+GloVe-Twitter,加领域种子词,max,0.651,0.652
+GloVe-Twitter,数据学习的方向（AI 标签训练）,mean-emb,0.705,0.782
