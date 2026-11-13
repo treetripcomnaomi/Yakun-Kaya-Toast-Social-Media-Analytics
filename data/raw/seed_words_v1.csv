@@ -1,0 +1,52 @@
+word,side,status,leave_one_out_score,reason
+heritage,heritage,keep,0.39,
+tradition,heritage,keep,0.36,
+legacy,heritage,keep,0.39,
+history,heritage,keep,0.28,
+historic,heritage,keep,0.28,
+timeless,heritage,removed,0.10,means enduring/never outdated rather than past-oriented; often fashion context
+longstanding,heritage,keep,0.17,
+roots,heritage,keep,0.30,
+generations,heritage,keep,0.36,
+nostalgia,heritage,keep,0.30,
+nostalgic,heritage,keep,0.24,
+memories,heritage,keep,0.44,
+childhood,heritage,keep,0.32,
+grandparents,heritage,keep,0.32,
+ancestral,heritage,keep,0.38,
+bygone,heritage,keep,0.31,added
+traditional,heritage,removed,0.08,too generic (traditional media etc.)
+founded,heritage,removed,0.02,business-registration sense; near zero
+classic,heritage,removed,0.10,ambiguous (classic style/product)
+iconic,heritage,removed,0.13,means famous/legendary rather than heritage
+retro,heritage,removed,-0.11,falls on novelty side (retro-chic style)
+vintage,heritage,removed,0.08,weak; antiques/cars sense
+authentic,heritage,removed,0.12,weak; often about taste not heritage
+handed_down / old_school,heritage,removed,,not in vocabulary
+trendy,novelty,keep,-0.31,
+latest,novelty,keep,-0.20,
+innovative,novelty,keep,-0.21,
+futuristic,novelty,keep,-0.22,
+experimental,novelty,keep,-0.16,
+viral,novelty,keep,-0.17,
+stylish,novelty,keep,-0.29,
+fashionable,novelty,keep,-0.25,
+collab,novelty,keep,-0.15,
+streetwear,novelty,keep,-0.27,
+upgraded,novelty,keep,-0.16,
+newest,novelty,keep,-0.23,added
+trendiest,novelty,keep,-0.34,added
+hip,novelty,keep,-0.15,added
+cutting_edge,novelty,keep,-0.21,added
+hottest,novelty,keep,-0.26,added
+revamped,novelty,keep,-0.20,added
+modern,novelty,removed,0.00,neutral (modern history/architecture)
+contemporary,novelty,removed,0.02,neutral
+new,novelty,removed,,too generic (new outlet / New Year)
+novel,novelty,removed,-0.09,book sense
+cool,novelty,removed,,temperature sense (warm/hot)
+aesthetic,novelty,removed,-0.02,neutral
+reinvented,novelty,removed,-0.03,weak
+fusion,novelty,removed,,food/physics sense
+hype / collaboration / novelty,novelty,removed,,weak; lowered stability
+limited_edition,novelty,removed,,not in vocabulary

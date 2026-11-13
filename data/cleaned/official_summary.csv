@@ -1,0 +1,9 @@
+﻿platform,brand,raw_rows,posts_in_window,earliest_post_scraped,latest_post,window_complete,posts_last_6m,posts_per_week_last_6m,median_eng_last_6m,mean_eng_last_6m,median_eng_per_view_last_6m,followers,median_eng_rate_followers_last_6m,share_reels_or_video,share_coauthor,share_disclosed,share_promo_cue,n_likes_hidden,n_recent_7d
+Instagram,% Arabica,300,300,2025-02-28,2026-10-24,False,96,3.69,54.5,70.5,0.02065,21000.0,0.0026,0.53,0.1,0.0,0.02,1,5
+Instagram,Old Chang Kee,300,300,2025-11-05,2026-10-23,False,154,5.92,118.0,338.5,0.01435,35000.0,0.0034,0.42,0.36,0.0,0.21,24,4
+Instagram,Toast Box,299,299,2024-07-01,2026-10-22,True,52,2.0,57.0,77.8,0.0134,24000.0,0.0024,0.6,0.14,0.01,0.16,3,1
+Instagram,Ya Kun,243,243,2024-07-01,2026-10-23,True,50,1.92,85.5,188.0,0.0157,20000.0,0.0043,0.37,0.04,0.0,0.28,0,2
+TikTok,% Arabica,86,86,2026-01-23,2026-10-22,False,42,1.62,4.0,5.3,0.0215,83.0,0.0482,1.0,0.0,0.0,0.0,0,3
+TikTok,Old Chang Kee,190,90,2024-10-03,2026-10-23,True,32,1.23,19.5,32.6,0.017349999999999997,6064.0,0.0031999999999999997,0.97,0.0,0.0,0.22,0,1
+TikTok,Toast Box,138,94,2024-07-06,2026-10-15,True,7,0.27,17.0,25.1,0.0141,361.0,0.0471,0.99,0.0,0.01,0.07,0,0
+TikTok,Ya Kun,31,13,2024-07-23,2025-03-06,True,0,0.0,,,,225.0,,1.0,0.0,0.0,0.15,0,0
