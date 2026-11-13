@@ -1,0 +1,13 @@
+import os,warnings; warnings.filterwarnings('ignore')
+os.chdir('/tmp/claude-0/rq'); exec(open('/tmp/claude-0/sent/roberta.py').read().split('P=pd.Series')[0])
+torch.set_num_threads(os.cpu_count())
+from scipy.stats import chi2_contingency
+r=pd.read_csv(U+'RQ2_逐条_1103.csv'); ind=pd.read_csv('/tmp/claude-0/s45/industry_sentiment_AI.csv')
+u=pd.concat([r.uid,ind.uid]).drop_duplicates()
+pr=pd.Series({x:pred(M.text_en.get(x,'')) for x in u},name='roberta')
+pr.rename_axis('uid').reset_index().to_csv('/tmp/claude-0/sent/roberta_labels.csv',index=False)
+r['rb']=r.uid.map(pr)
+print('overall',(r.rb.value_counts(normalize=True)*100).round(1).to_dict())
+t=pd.crosstab(r.anyH,r.rb,normalize='index').round(3)*100; print(t); print('chi2 p',chi2_contingency(pd.crosstab(r.anyH,r.rb))[1])
+print(pd.crosstab(r.platform,r.rb,normalize='index').round(2))
+sc=r[r.SC_soya_coffee==1]; print('soya',len(sc),sc.rb.value_counts().to_dict())
