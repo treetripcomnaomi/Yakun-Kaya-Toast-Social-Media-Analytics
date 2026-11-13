@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+matplotlib
+gensim
+transformers
+torch
+vaderSentiment
+textblob
+afinn
+jupyter
+langdetect
+openpyxl
